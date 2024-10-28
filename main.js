@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('./dotenv/node_modules/lib/main').config();
 
 //creo un file main.js con un semplice console.log che dica hello node js
 console.log('hello node js');
