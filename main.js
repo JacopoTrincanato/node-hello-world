@@ -9,7 +9,8 @@ altrimenti stampa Access restricted*/
 console.log('hello node js');
 
 //aggiungete allo script una variabile di ambiente chiamata PIN  con associato numero a piacere es. PIN=666
-const newPin = process.env.API_KEY
+const pin = process.env.PIN;
+console.log(process.env.PIN);
 
-console.log(newPin);
+
 
