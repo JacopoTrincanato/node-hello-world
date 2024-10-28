@@ -12,6 +12,13 @@ console.log(newPin);
 /*Bonus:
 se il valore dell'argomento é admin ed il valore di PIN definito é 666 allora stampa in console Welcome Admin
 altrimenti stampa Access restricted*/
+if ((Number(pin) === 666) && (process.argv.slice(2) === 'admin')) {
+    console.log('Welcome admin');
+    
+}else{
+    console.log('Access restricted');
+    
+}
 
 
 
